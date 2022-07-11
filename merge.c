@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define MAX 30
+#define MAX 1000
 
 int *createVet(int len){
     int *vet;
@@ -55,7 +55,7 @@ void mergeSort(int *vet, int start, int end){
 
 void printVet(int *vet, int len){
     for (int i=0;i<len;i++){
-        printf("%d\n",*(vet+i));
+        printf("%d ",*(vet+i));
     }
 }
 
@@ -65,6 +65,7 @@ int main(){
     vet = createVet(len);
     clock_t mStart = clock(), mEnd;
     mergeSort(vet, 0,len-1);
+    printVet(vet,len);
     mEnd = clock();
     double final = ((double)mEnd-mStart)/CLOCKS_PER_SEC;
     printf("%.8lf segundos",final);

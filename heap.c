@@ -101,6 +101,7 @@ int main(){
     vet = createVet(len);
     clock_t start = clock(), end;
     vet = heapSort(vet,len);
+    printVet(vet,len);
     end = clock();
     double final = ((double)end - start) / CLOCKS_PER_SEC;
     printf("%.8lf segundos\n", final);

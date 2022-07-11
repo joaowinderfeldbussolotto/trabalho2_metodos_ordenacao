@@ -1,0 +1,50 @@
+echo ---- Counting Sort------------------------------------------------------------ >> .\trab.txt
+.\coutingSort 10000 1 >> .\trab.txt
+.\coutingSort 50000 1 >> .\trab.txt
+.\coutingSort 100000 1 >> .\trab.txt
+.\coutingSort 10000 2 >> .\trab.txt
+.\coutingSort 50000 2 >> .\trab.txt
+.\coutingSort 100000 2 >> .\trab.txt
+.\coutingSort 10000 3 >> .\trab.txt
+.\coutingSort 50000 3 >> .\trab.txt
+.\coutingSort 100000 3 >> .\trab.txt
+echo ---- Merge Sort------------------------------------------------------------ >> .\trab.txt
+.\mergeSort 10000 1 >> .\trab.txt
+.\mergeSort 50000 1 >> .\trab.txt
+.\mergeSort 100000 1 >> .\trab.txt
+.\mergeSort 10000 2 >> .\trab.txt
+.\mergeSort 50000 2 >> .\trab.txt
+.\mergeSort 100000 2 >> .\trab.txt
+.\mergeSort 10000 3 >> .\trab.txt
+.\mergeSort 50000 3 >> .\trab.txt
+.\mergeSort 100000 3 >> .\trab.txt
+echo ---- Radix Sort ------------------------------------------------------------ >> .\trab.txt
+.\radixSort 10000 1 >> .\trab.txt
+.\radixSort 50000 1 >> .\trab.txt
+.\radixSort 100000 1 >> .\trab.txt
+.\radixSort 10000 2 >> .\trab.txt
+.\radixSort 50000 2 >> .\trab.txt
+.\radixSort 100000 2 >> .\trab.txt
+.\radixSort 10000 3 >> .\trab.txt
+.\radixSort 50000 3 >> .\trab.txt
+.\radixSort 100000 3 >> .\trab.txt
+echo ---- Heap Sort ------------------------------------------------------------ >> .\trab.txt
+.\heapSort 10000 1 >> .\trab.txt
+.\heapSort 50000 1 >> .\trab.txt
+.\heapSort 100000 1 >> .\trab.txt
+.\heapSort 10000 2 >> .\trab.txt
+.\heapSort 50000 2 >> .\trab.txt
+.\heapSort 100000 2 >> .\trab.txt
+.\heapSort 10000 3 >> .\trab.txt
+.\heapSort 50000 3 >> .\trab.txt
+.\heapSort 100000 3 >> .\trab.txt
+echo ---- Quick Sort ------------------------------------------------------------ >> .\trab.txt
+.\quickSort 10000 1 >> .\trab.txt
+.\quickSort 50000 1 >> .\trab.txt
+.\quickSort 100000 1 >> .\trab.txt
+.\quickSort 10000 2 >> .\trab.txt
+.\quickSort 50000 2 >> .\trab.txt
+.\quickSort 100000 2 >> .\trab.txt
+.\quickSort 10000 3 >> .\trab.txt
+.\quickSort 50000 3 >> .\trab.txt
+.\quickSort 100000 3 >> .\trab.txt
