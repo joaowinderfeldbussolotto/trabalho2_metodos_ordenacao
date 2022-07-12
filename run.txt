@@ -38,7 +38,19 @@ echo ---- Heap Sort ------------------------------------------------------------
 .\heapSort 10000 3 >> .\trab.txt
 .\heapSort 50000 3 >> .\trab.txt
 .\heapSort 100000 3 >> .\trab.txt
-echo ---- Quick Sort ------------------------------------------------------------ >> .\trab.txt
+
+echo ---- Quick Sort Otimizado ------------------------------------------------------------ >> .\trab.txt
+.\quickSortOt 10000 1 >> .\trab.txt
+.\quickSortOt 50000 1 >> .\trab.txt
+.\quickSortOt 100000 1 >> .\trab.txt
+.\quickSortOt 10000 2 >> .\trab.txt
+.\quickSortOt 50000 2 >> .\trab.txt
+.\quickSortOt 100000 2 >> .\trab.txt
+.\quickSortOt 10000 3 >> .\trab.txt
+.\quickSortOt 50000 3 >> .\trab.txt
+.\quickSortOt 100000 3 >> .\trab.txt
+
+echo ---- Quick Sort Otimizado ------------------------------------------------------------ >> .\trab.txt
 .\quickSort 10000 1 >> .\trab.txt
 .\quickSort 50000 1 >> .\trab.txt
 .\quickSort 100000 1 >> .\trab.txt
